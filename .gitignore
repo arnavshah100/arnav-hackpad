@@ -2,6 +2,7 @@ lib/
 kmk/
 desktop.ini
 boot.py
+KiCad file.kicad_prl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
