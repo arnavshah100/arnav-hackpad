@@ -27,6 +27,7 @@ matrix = MatrixScanner(
     cols=colpins,
     rows=rowpins,
     diode_orientation=DiodeOrientation.ROW2COL,
+    #The PCF8574AT has active-low scanning, and that switches the orientation from how the diodes are wired in the PCB.
     pull=digitalio.Pull.UP,
 )
 #------------------------

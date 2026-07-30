@@ -3,7 +3,6 @@ kmk/
 .history/
 desktop.ini
 boot.py
-KiCad file.kicad_prl
 ~KiCad file.kicad_pcb.lck
 ~KiCad file.kicad_sch.lck
 ~KiCad file.kicad_pro.lck
