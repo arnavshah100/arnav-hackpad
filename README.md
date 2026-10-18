@@ -88,7 +88,7 @@ Next, <b><i><u>carefully</u></i></b> solder the keyswitches onto the PCB.
 
 For the last step, use the M2x4mm screws to screw the plate onto the top part's M2 heatset insert. The top part of the screw should be touching the plate. I recommend plugging in the PCB into your device and trying using the macropad to check that it works. If your device doesn't register any of the keypresses, reread all the steps in [the guide](https://github.com/arnavshah100/arnav-hackpad/#how-to-make-it). Use the M3x16mm screws to screw the bottom part onto the top part's M3 heatset insert. The top part of the screw should be touching the bottom part. The labeled image showing where the screws should be is [here](Assets/Assembly.png).
 
-Now, put the knob on the rotary encoder, and you're DONE! 
+Now, put the knobs on the rotary encoders, and you're DONE! 
 
 <b><u>CELEBRATE!</u></b>
 ## Final Product
@@ -103,6 +103,7 @@ The code is under an MIT License. For more info, see [LICENSE](LICENSE).
 - Huge thanks to [@ashah80](https://github.com/ashah80) (my brother!), who helped me in every step of the way, even though he has never made anything hardware-related.
 - I was motivated by the [Stardance summer program](https://stardance.hackclub.com/), which both inspired and incentivized me to make this project. I had never even considered making anything related to hardware before Stardance provided me with a great platform to do so.
 - The people in the [hackpad slack page](https://hackclub.enterprise.slack.com/archives/C07LESGH0B0) from Hack Club helped answer all my questions.
+- I used [Claude](claude.ai) to help me learn how to code in KMK and create a PCF8574AT scanner. [Gemini](gemini.google.com) helped me with my general questions for how to use a software.
 ### Resources I used
 - I used [Hack Club's KiCad care package](https://github.com/hackclub/hackpad/releases/tag/v0.1-bugfix) for some of my symbols and footprints in my PCB.
 - I used [KiCad's rotary encoder footprint](https://kicad.github.io/footprints/Rotary_Encoder) for my, well, rotary encoder!
