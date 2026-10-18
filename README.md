@@ -91,6 +91,12 @@ For the last step, use the M2x4mm screws to screw the plate onto the top part's 
 Now, put the knob on the rotary encoder, and you're DONE! 
 
 <b><u>CELEBRATE!</u></b>
+## Final Product
+After over 3 months of dedication, I have built the arnav-hackpad.\
+![arnav-hackpad image](Assets/Hackpad%20Image.jpeg)
+This is the image of the hackpad.\
+[arnav-hackpad video](https://github.com/arnavshah100/arnav-hackpad/raw/refs/heads/main/Assets/Video.mov)\
+This is a video demoing the hackpad. Click on it to watch it!
 ## License
 The code is under an MIT License. For more info, see [LICENSE](LICENSE).
 ## Credits
