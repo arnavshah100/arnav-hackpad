@@ -182,6 +182,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -2016,6 +2156,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 71.12) (xy 21.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06427480-37f3-451c-a62d-b2b866642066")
+	)
+	(wire
+		(pts
 			(xy 25.4 162.56) (xy 30.48 162.56)
 		)
 		(stroke
@@ -2046,6 +2196,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 128.27) (xy 44.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f2aaab-568e-44f2-873f-be3f35c8350b")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 78.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e84c430-8253-4d10-b460-673620422c22")
+	)
+	(wire
+		(pts
 			(xy 187.96 71.12) (xy 213.36 71.12)
 		)
 		(stroke
@@ -2053,6 +2223,16 @@
 			(type default)
 		)
 		(uuid "2717122e-7260-448f-9b39-4399163100f6")
+	)
+	(wire
+		(pts
+			(xy 21.59 71.12) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8f0ee2-9b37-41f9-999b-a9241fe80aae")
 	)
 	(wire
 		(pts
@@ -2066,6 +2246,26 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 80.01) (xy 21.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303423a5-16ed-4411-add9-4e8bd2d47566")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 78.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36351264-b9e1-4e81-97de-34ad346a96cf")
+	)
+	(wire
+		(pts
 			(xy 177.8 50.8) (xy 177.8 63.5)
 		)
 		(stroke
@@ -2076,6 +2276,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 143.51) (xy 44.45 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac07356-bcfc-4c42-8ee1-414080717213")
+	)
+	(wire
+		(pts
+			(xy 35.56 127) (xy 35.56 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bdb58a9-5a23-44da-80e5-01fa5996ccfe")
+	)
+	(wire
+		(pts
 			(xy 213.36 96.52) (xy 228.6 96.52)
 		)
 		(stroke
@@ -2083,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "3e35444e-17b9-46cd-a5e8-4caea5aa0850")
+	)
+	(wire
+		(pts
+			(xy 21.59 127) (xy 35.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dceee0-21e3-45f9-b348-0b2a53baf250")
 	)
 	(wire
 		(pts
@@ -2126,6 +2356,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 41.91) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59710529-586d-4d78-9136-adfdbdb8d80c")
+	)
+	(wire
+		(pts
 			(xy 81.28 45.72) (xy 77.47 43.18)
 		)
 		(stroke
@@ -2136,6 +2376,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 143.51) (xy 44.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70195107-bf3c-4125-8a27-55f933bfbf9b")
+	)
+	(wire
+		(pts
 			(xy 30.48 134.62) (xy 54.61 134.62)
 		)
 		(stroke
@@ -2143,6 +2393,16 @@
 			(type default)
 		)
 		(uuid "77ad9be6-bbf9-4c4a-b402-1d97bb36a6f8")
+	)
+	(wire
+		(pts
+			(xy 110.49 48.26) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2153db-f761-4a64-a677-94b2c752270c")
 	)
 	(wire
 		(pts
@@ -2176,6 +2436,36 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 128.27) (xy 44.45 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910878fe-26a6-4a2a-8824-2980c7058431")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e7740a-4b03-4c8c-9ee1-fab60035fd5e")
+	)
+	(wire
+		(pts
+			(xy 77.47 41.91) (xy 95.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bbcdc7-3d60-4b23-9ebd-6b3898b8ea97")
+	)
+	(wire
+		(pts
 			(xy 30.48 162.56) (xy 44.45 162.56)
 		)
 		(stroke
@@ -2183,6 +2473,16 @@
 			(type default)
 		)
 		(uuid "a4ba470f-09fe-4a44-aa30-cb5c0e296267")
+	)
+	(wire
+		(pts
+			(xy 77.47 43.18) (xy 77.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ed058c-afda-4455-9a52-f000ab81fa71")
 	)
 	(wire
 		(pts
@@ -2286,6 +2586,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 43.18) (xy 77.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd4b74d-0955-4003-a3ce-9164c4230c2f")
+	)
+	(wire
+		(pts
 			(xy 203.2 63.5) (xy 203.2 76.2)
 		)
 		(stroke
@@ -2293,6 +2603,16 @@
 			(type default)
 		)
 		(uuid "ec503e62-8080-4f12-87c5-858c1b4aea1e")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.2) (xy 110.49 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01ee3ec-6665-4766-bc30-4ba4fb332fd6")
 	)
 	(wire
 		(pts
@@ -2626,6 +2946,30 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 44.45 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b6d458e-df10-45a8-a036-4582e183c3f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.9572 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Row 2"
 		(shape input)
 		(at 228.6 83.82 0)
@@ -2743,30 +3087,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 44.45 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a6e2487-f198-4afd-a662-94a4abbd886d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.9572 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -3195,6 +3515,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 208.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
+			(at 208.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d08b6bd-fdd9-4a92-9eaf-2c3d365e622a")
 		)
@@ -3290,6 +3632,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 187.96 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C85057"
+			(at 187.96 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 187.96 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3403,6 +3767,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85057"
+			(at 162.56 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 162.56 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6f3b4355-6ee3-453f-b742-327e755ab2ba")
 		)
@@ -3473,6 +3859,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 157.48 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 157.48 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
 			(at 157.48 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3641,6 +4049,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45a191ab-3876-4340-9c0b-c40d22c550af")
 		)
@@ -3713,6 +4143,28 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 30.48 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C49678"
+			(at 30.48 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 30.48 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3906,6 +4358,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85057"
+			(at 162.56 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 162.56 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "06b0ab58-8395-44fb-80c5-075a038e7f9c")
 		)
@@ -3976,6 +4450,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 182.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 182.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
 			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4090,6 +4586,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85057"
+			(at 162.56 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 162.56 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d0cfe9aa-61c3-4a6c-9929-088bd6dd6de5")
 		)
@@ -4194,6 +4712,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85057"
+			(at 213.36 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 213.36 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b4be68a8-3f29-4392-8a4b-ef7585f1e739")
 		)
@@ -4264,6 +4804,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
 			(at 157.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4511,6 +5073,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 55.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 55.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "552b52ae-9f5a-4e18-b961-9b628a62daa0")
 		)
@@ -4642,6 +5226,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 213.36 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C85057"
+			(at 213.36 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 213.36 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4809,6 +5415,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
+			(at 208.28 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6a3fff2-e01a-4fe4-843f-9e3251c23f85")
 		)
@@ -4903,6 +5531,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 21.59 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "995c8333-8a27-464d-ad12-e98db9f7c8ed")
+		(property "Reference" "R1"
+			(at 24.13 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 24.13 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 19.812 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e0e8fb0c-b170-408d-a5c3-228ca4f86124")
+		)
+		(pin "1"
+			(uuid "36b2fcbd-ede9-488c-a3b8-33f33d29ab01")
+		)
+		(instances
+			(project "KiCad file"
+				(path "/03a2f365-6f86-40de-8236-abbe5f4614e3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 157.48 63.5 0)
 		(unit 1)
@@ -4957,6 +5667,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 157.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 157.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
 			(at 157.48 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5037,6 +5769,28 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 46.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 46.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 46.99 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5215,6 +5969,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S1"
 			(uuid "17a363db-90b9-42ad-8cde-8e480f84204f")
 		)
@@ -5234,6 +6010,88 @@
 			(project "KiCad file"
 				(path "/03a2f365-6f86-40de-8236-abbe5f4614e3"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd4ee5ac-9c6e-4840-a844-4249ca526662")
+		(property "Reference" "R2"
+			(at 113.03 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 113.03 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 108.712 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e90e587-ab68-40f7-be4b-ce561727fd12")
+		)
+		(pin "1"
+			(uuid "323220be-0e2f-4d34-8008-54ba7e9b0be5")
+		)
+		(instances
+			(project "KiCad file"
+				(path "/03a2f365-6f86-40de-8236-abbe5f4614e3"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5294,6 +6152,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 182.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 182.88 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
 			(at 182.88 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5408,6 +6288,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85057"
+			(at 187.96 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 187.96 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4836f21f-34d2-406f-9fb1-f84c7480da63")
 		)
@@ -5478,6 +6380,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 208.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 208.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
 			(at 208.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5583,6 +6507,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 213.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C85057"
+			(at 213.36 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 213.36 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5775,6 +6721,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85057"
+			(at 162.56 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 162.56 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "360125ff-9061-4ff1-b033-f5c037bf1656")
 		)
@@ -5847,6 +6815,28 @@
 			)
 		)
 		(property "Description" "8-bit I/O Expander, I2C interface, interrupt output, fixed address bits 0b0111xxx, SOIC-16"
+			(at 54.61 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C86832"
+			(at 54.61 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 54.61 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6003,6 +6993,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85057"
+			(at 187.96 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 187.96 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d9f6a40-c7de-4d20-b207-12981f0362b3")
 		)
@@ -6073,6 +7085,28 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 182.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 182.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C9900177322"
 			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
