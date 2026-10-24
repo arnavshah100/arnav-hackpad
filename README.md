@@ -103,7 +103,7 @@ The code is under an MIT License. For more info, see [LICENSE](LICENSE).
 - Huge thanks to [@ashah80](https://github.com/ashah80) (my brother!), who helped me in every step of the way, even though he has never made anything hardware-related.
 - I was motivated by the [Stardance summer program](https://stardance.hackclub.com/), which both inspired and incentivized me to make this project. I had never even considered making anything related to hardware before Stardance provided me with a great platform to do so.
 - The people in the [hackpad slack page](https://hackclub.enterprise.slack.com/archives/C07LESGH0B0) from Hack Club helped answer all my questions.
-- I used [Claude](claude.ai) to help me learn how to code in KMK and create a PCF8574AT scanner. [Gemini](gemini.google.com) helped me with my general questions for how to use a software.
+- I used [Claude](claude.ai) to help me learn how to code in KMK, specifically for the PCF8574AT scanner. It also gave me next steps for what to do when my hackpad didn't work. [Gemini](gemini.google.com) helped me with my general questions for how to use a software.
 ### Resources I used
 - I used [Hack Club's KiCad care package](https://github.com/hackclub/hackpad/releases/tag/v0.1-bugfix) for some of my symbols and footprints in my PCB.
 - I used [KiCad's rotary encoder footprint](https://kicad.github.io/footprints/Rotary_Encoder) for my, well, rotary encoder!
