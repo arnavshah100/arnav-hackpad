@@ -1,5 +1,5 @@
 # arnav-hackpad
-<b>The arnav-hackpad is a mini-keyboard (or macropad) designed to act as an external number pad with many other cool capabilities, too!</b>
+<b>The arnav-hackpad is a mini-keyboard (or macropad) designed to act as an external number pad with navigation and mouse capabilities, too!</b>
 
 ## Inspiration
 In my essential technology class at school, two of my favorite modules were coding and 3D printing. When I joined the [Stardance summer program](https://stardance.hackclub.com/) and started looking at the recommended projects, I saw <b>hackpad</b>, and saw it as a great way to combine my love for those two subjects.
